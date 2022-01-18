@@ -18,6 +18,10 @@ const Details:React.FC<DetailsProps> = ({users, rank, popularity, members, score
       <Stack 
         direction="row"
         spacing={5}
+        style={{
+          justifyContent: 'center',
+          marginTop: '5%'
+        }}
       >
         <Item>
           {users}
@@ -49,6 +53,7 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  width: '10%',
 }));
 
 export default Details;

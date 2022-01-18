@@ -6,10 +6,12 @@ export interface ResultCardType {
 }
 
 export interface DescriptionType {
-  users: number,
-  ranked: number,
+  synopsis: string,
+  title: string,
+  image_url: string,
+  scored_by: number,
+  rank: number,
   popularity: number,
   members: number,
-  title?: string,
-  background: string,
+  score: number,
 }
