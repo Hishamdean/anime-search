@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
-import { ResultCardType } from './lib/types';
+import { ResultCardType } from '../lib/types';
 import { CardActionArea, CardContent, Typography } from '@mui/material';
 
 interface ResultCardProps {
@@ -10,7 +10,7 @@ interface ResultCardProps {
 
 const ResultCard = ({item}: any, onClick: any) => {
   return (
-    <Card sx={{ maxWidth: 225, minWidth: 225, margin: 3 }} >
+    <Card sx={{ maxWidth: 225, minWidth: 225 }} >
       <CardActionArea>
         <CardMedia
           onClick={() => onClick(item)}

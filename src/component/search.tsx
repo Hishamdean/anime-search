@@ -5,14 +5,14 @@ import TextField from '@mui/material/TextField';
 const Search = (handleSearch: any) => {
   return (
     <Box component="form" noValidate autoComplete="off">
-        <TextField
-          id="outlined-basic"
-          variant="outlined"
-          fullWidth
-          onChange={handleSearch}
-          placeholder="Abuden"
-        />
-      </Box>
+      <TextField
+        id="outlined-basic"
+        variant="outlined"
+        fullWidth
+        onChange={handleSearch}
+        placeholder="search anime"
+      />
+    </Box>
   )
 }
 

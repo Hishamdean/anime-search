@@ -3,8 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/home';
 import Synopsis from './pages/synopsis';
 
-const Application: React.FunctionComponent<{}> = props => {
-
+const Application: React.FunctionComponent<{}> = () => {
   return (
     <BrowserRouter>
       <Routes>
